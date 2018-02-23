@@ -1,0 +1,141 @@
+body {
+    background-image: url(/Users/emily/Desktop/Basic-Portfolio/assets/images/concrete_seamless/concrete_seamless.png)
+}
+
+#sec1 {
+    padding: 25px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #dddddd;
+    height: 16px;
+    overflow: auto;
+    background-color: white;
+    top: 0;
+}
+
+header {
+    background-color: #4aaaa5;
+    float: left;
+    position: fixed;
+    top: 0px;
+    left: 110px;
+    width: 190px;
+    height: 75px;
+    text-align: center; 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    top: 0;
+}
+
+#tabs {
+    position: fixed;
+    right: 220px;
+    top: 5px;
+    height: 75px;
+    list-style: none;
+    text-align: center;
+}
+
+.headerborder {
+    border-right: 2px solid #dddddd;
+}
+
+.headerlinks {
+    float: right;
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: #777777;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#sec2 {
+    position: relative;
+    left: 100px;
+    width: 650px;
+    height: 370px;
+    overflow: auto;
+    border: 1px solid #dddddd;
+    margin-right: 40px;
+    margin-top: 2px;
+    float: left;
+    background-color: white;
+}
+
+#aboutme {
+    color: #4aaaa5;
+    padding: 25px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #dddddd;
+    height: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0px;
+    padding-bottom: 35px;
+    margin-top: 1px;
+}
+
+img {
+    margin-left: 20px;
+    height: 40%;
+    width: 18%;
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin-left: 20px;
+}
+
+#sec3 {
+    position: absolute;
+    left: 790px;
+    width: 270px;
+    height: 180px;
+    border: 1px solid #dddddd;
+    margin-top: 1px;
+    float: right;
+    overflow: auto;
+    background-color: white;
+}
+
+#connect {
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+}
+
+.sourcelinks {
+    display: inline-block;
+    padding-left: 27px;
+    margin: auto;
+    height: 30%;
+    width: 20%;
+}
+
+footer {
+    padding: 20px;
+    margin-bottom: 0px;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    color: white;
+    background-color: #666666;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
