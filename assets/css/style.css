@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url(/Users/emily/Desktop/Basic-Portfolio/assets/images/gaming-pattern/gaming-pattern.png)
+    background-image: url(../images/memphis-colorful/memphis-colorful.png)
 }
 
 #sec1 {
@@ -32,6 +32,11 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     top: 0;
+    transition: all 1s;
+}
+
+header:hover {
+    background-color: teal;
 }
 
 #tabs {
@@ -109,6 +114,11 @@ header {
     padding-left: 0px;
     padding-bottom: 35px;
     margin-top: 1px;
+    transition: all 1s;
+}
+
+#aboutme:hover {
+    color: teal;
 }
 
 img {
@@ -150,12 +160,21 @@ p {
     border-bottom: 2px solid #dddddd;
 }
 
+#connect:hover {
+    color: teal;
+}
+
 .sourcelinks {
     display: inline;
     padding-left: 27px;
     margin: auto;
     height: 30%;
     width: 20%;
+}
+
+.sourcelinks:hover {
+    cursor: pointer;
+    opacity: .6;
 }
 
 #contactsec {
@@ -184,6 +203,10 @@ p {
     margin-top: 1px;
 }
 
+#contactme:hover {
+    color: teal;
+}
+
 label {
     display: inline;
     margin-top: 20px;
@@ -207,8 +230,8 @@ input, textarea {
     border-radius: 5px;
 }
 
-input:focus, textarea:focus {
-    border: 1px solid #4aaaa5;
+input[type=text]:focus textarea:focus {
+    border: 1px solid;
 }
 
 textarea {
@@ -229,6 +252,19 @@ textarea {
     opacity: .6;
 }
 
+#portfoliosec {
+    position: relative;
+    left: 100px;
+    width: 650px;
+    height: 420px;
+    overflow: auto;
+    border: 1px solid #dddddd;
+    margin-right: 40px;
+    margin-top: 90px;
+    float: left;
+    background-color: white;
+}
+
 #myportfolio {
     color: #4aaaa5;
     padding: 25px;
@@ -240,6 +276,10 @@ textarea {
     padding-left: 0px;
     padding-bottom: 35px;
     margin-top: 1px;
+}
+
+#myportfolio:hover {
+    color: teal;
 }
 
 .row,
@@ -271,16 +311,21 @@ textarea {
     margin-left: 20px;
     margin-top: 140px;
     padding-top: 10px;
-    width: 42.1%;
-    height: 35px;
+    width: 42.2%;
+    box-sizing: border-box;
+    height: 40px;
     text-align: center;
-    background-color: #4aaaa5;
     float: left;
+}
+
+.head3:hover {
+    opacity: .8;
+    cursor: pointer;
 }
 
 footer {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     border-top: 5px solid #4aaaa5;
     text-align: center;
