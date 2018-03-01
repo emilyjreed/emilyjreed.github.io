@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-color: #4aaaa5;
+    background-color: pink;
     float: left;
     position: fixed;
     top: 0px;
@@ -39,7 +39,7 @@ header {
 }
 
 header:hover {
-    background-color: teal;
+    background-color: lightcoral;
 }
 
 #tabs {
@@ -57,7 +57,7 @@ a {
 }
 
     a:hover {
-        color: #4aaaa5;
+        color: lightcoral;
     }
 
 a:link {
@@ -89,7 +89,7 @@ a:visited {
     position: relative;
     left: 100px;
     width: 650px;
-    height: 370px;
+    height: 400px;
     overflow: auto;
     border: 1px solid #dddddd;
     margin-right: 40px;
@@ -99,7 +99,7 @@ a:visited {
 }
 
 #aboutme {
-    color: #4aaaa5;
+    color: pink;
     padding: 25px;
     margin-bottom: 10px;
     border-bottom: 3px solid #dddddd;
@@ -115,7 +115,7 @@ a:visited {
 }
 
 #aboutme:hover {
-    color: teal;
+    color: lightcoral;
 }
 
 img {
@@ -153,14 +153,14 @@ p {
     margin-left: 20px;
     margin-right: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
+    color: pink;
     border-bottom: 2px solid #dddddd;
     font-size: 20px;
     font-weight: bold;
 }
 
 #connect:hover {
-    color: teal;
+    color: lightcoral;
 }
 
 .sourcelinks {
@@ -193,7 +193,7 @@ p {
 }
 
 #contactme {
-    color: #4aaaa5;
+    color: pink;
     padding: 25px;
     margin-bottom: 10px;
     border-bottom: 3px solid #dddddd;
@@ -208,7 +208,7 @@ p {
 }
 
 #contactme:hover {
-    color: teal;
+    color: lightcoral;
 }
 
 label {
@@ -246,7 +246,7 @@ textarea {
 #submit {
     width: 100px;
     height: 40px;
-    background: #4aaaa5;
+    background: lightcoral;
     color: white;
     border: none;
     margin-top: 1px;
@@ -262,7 +262,7 @@ textarea {
     position: relative;
     left: 100px;
     width: 650px;
-    height: 500px;
+    height: 400px;
     overflow: auto;
     border: 1px solid #dddddd;
     margin-right: 40px;
@@ -272,7 +272,7 @@ textarea {
 }
 
 #myportfolio {
-    color: #4aaaa5;
+    color: pink;
     padding: 25px;
     margin-bottom: 10px;
     border-bottom: 3px solid #dddddd;
@@ -287,7 +287,7 @@ textarea {
 }
 
 #myportfolio:hover {
-    color: teal;
+    color: lightcoral;
 }
 
 .row,
@@ -314,7 +314,7 @@ textarea {
 
 .head3 {
     color: white;
-    background: #4aaaa5;
+    background: lightcoral;
     position: absolute;
     margin-left: 20px;
     margin-top: 140px;
@@ -332,10 +332,9 @@ textarea {
 }
 
 footer {
-    position: absolute;
-    /* bottom: 0px;
-    left: 0; */
-    border-top: 5px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    border-top: 5px solid pink;
     text-align: center;
     color: white;
     background-color: #666666;
