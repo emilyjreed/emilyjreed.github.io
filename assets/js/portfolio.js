@@ -46,7 +46,7 @@
     $('.portfolio-modal').on('hidden.bs.modal', function (e) {
         $(".navbar").removeClass("d-none");
     })
-
+    // Main page word changes
     var keywords = ["Developer", "Designer", "Creative", "Musician"];
     var count = 1;
     setInterval(function () {
