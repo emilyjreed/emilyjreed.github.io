@@ -59,4 +59,14 @@
         });
     }, 2000);
 
+    // Welcome btn scroll down to About Me page
+    function scrollToAnchor(aid){
+        var sectionTag = $("section[id='"+ aid +"']");
+        $('html,body').animate({scrollTop: sectionTag.offset().top},'slow');
+    }
+    
+    $("#welcome-btn").click(function() {
+       scrollToAnchor('about');
+    });    
+
 })(jQuery);

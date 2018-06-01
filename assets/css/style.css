@@ -6,6 +6,18 @@ body {
   p {
     line-height: 1.75;
   }
+
+  a {
+    padding:10px 20px;
+    display:block;
+    color:white;
+    text-decoration:none;
+    transition:all 0.3s ease-in-out;
+  }
+
+  a:active {
+    color: purple;
+  }
   
   a:hover {
     color: purple !important;
@@ -110,7 +122,7 @@ body {
   
   #mainNav .navbar-brand {
     color: plum;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Give You Glory', cursive;
   }
   
   #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
