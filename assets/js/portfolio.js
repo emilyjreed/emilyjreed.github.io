@@ -67,6 +67,6 @@
     
     $("#welcome-btn").click(function() {
        scrollToAnchor('about');
-    });    
+    });
 
 })(jQuery);
